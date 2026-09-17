@@ -11,7 +11,7 @@ import paymentRouter from "./routes/payment.route.js"
 
 const app = express()
 app.use(cors({
-    origin:"https://ai-interview-buddy-kappa.vercel.app/",
+    origin: "https://ai-interview-buddy-kappa.vercel.app",
     credentials:true
 }))
 
